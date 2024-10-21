@@ -1,0 +1,64 @@
+{
+  "trash_id": "5d66fef1566e09e0b4957f872c558a6f",
+  "trash_scores": {
+    "default": 600
+  },
+  "name": "Anime Web-DL Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "WEB",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 1
+      }
+    },
+    {
+      "name": "ANi",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(ANi)\\b"
+      }
+    },
+    {
+      "name": "Lilith-raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Lilith-raws)\\b"
+      }
+    },
+    {
+      "name": "NC-Raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(NC-Raws|まひろ|GJ\\.Y|Up to 21°C)\\b"
+      }
+    }
+  ]
+}
