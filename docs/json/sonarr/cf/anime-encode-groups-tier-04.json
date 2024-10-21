@@ -1,144 +1,198 @@
 {
-  "trash_id": "b4a1b3d705159cdca36d71e57ca86871",
+  "trash_id": "f5f8e444fa252f08152c6c40ca1cff06",
   "trash_scores": {
-    "default": -10000
+    "default": 1100
   },
-  "name": "Anime Raws",
+  "name": "Anime Encode Groups Tier 04",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "AsukaRaws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "Bluray",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Asuka[ ._-]?(Raws)"
+        "value": 6
       }
     },
     {
-      "name": "Daddy-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "Bluray Remux",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Daddy[ ._-]?(Raws)"
+        "value": 7
       }
     },
     {
-      "name": "Fumi-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Fumi[ ._-]?(Raws)"
+        "value": 3
       }
     },
     {
-      "name": "km",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[km\\]|-km\\b"
+        "value": 4
       }
     },
     {
-      "name": "Koi-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEB",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Koi[ ._-]?(Raws)"
+        "value": 1
       }
     },
     {
-      "name": "Lilith-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "DVD",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Lilith[ ._-]?(Raws)"
+        "value": 5
       }
     },
     {
-      "name": "LowPower-Raws",
+      "name": "7³ACG",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "LowPower[ ._-]?(Raws)"
+        "value": "\\b(7³ACG|343-Labs)\\b"
       }
     },
     {
-      "name": "Moozzi2",
+      "name": "Chihiro",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\b(Moozzi2)\\b"
+        "value": "\\b(Chihiro)\\b"
       }
     },
     {
-      "name": "NanakoRaws",
+      "name": "Derp",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Nanako[ ._-]?(Raws)"
+        "value": "\\b(Derp)\\b"
       }
     },
     {
-      "name": "NC-Raws",
+      "name": "Doki",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "NC[ ._-]?(Raws)"
+        "value": "\\b(Doki)\\b"
       }
     },
     {
-      "name": "New-raws",
+      "name": "Erai-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "New[ ._-]?(raws)"
+        "value": "\\b(Erai-Raws)\\b"
       }
     },
     {
-      "name": "Pandoratv-Raws",
+      "name": "HorribleSubs",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Pandoratv[ ._-]?(Raws)"
+        "value": "\\b(HorribleSubs)\\b"
       }
     },
     {
-      "name": "Scryous-Raws",
+      "name": "Leopard-raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Scryous[ ._-]?(Raws)"
+        "value": "\\b(Leopard-raws)\\b"
       }
     },
     {
-      "name": "Seicher-Raws",
+      "name": "Mimi-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Seicher[ ._-]?(Raws)"
+        "value": "\\b(Mimi-Raws)\\b"
       }
     },
     {
-      "name": "Shiniori-Raws",
+      "name": "Neko-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Shiniori[ ._-]?(Raws)"
+        "value": "\\b(Neko-Raws)\\b"
+      }
+    },
+    {
+      "name": "Ohys-Raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Ohys-Raws)\\b"
+      }
+    },
+    {
+      "name": "Seed-Raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Seed-Raws)\\b"
+      }
+    },
+    {
+      "name": "simple-raw",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(simple-raw)\\b"
+      }
+    },
+    {
+      "name": "Subplease",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Subplease)\\b"
+      }
+    },
+    {
+      "name": "Zero-raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Zero-raws)\\b"
+      }
+    },
+    {
+      "name": "肥羊-Raws",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(肥羊-Raws)\\b"
       }
     }
   ]
