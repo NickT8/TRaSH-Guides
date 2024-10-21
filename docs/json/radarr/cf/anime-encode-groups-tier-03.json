@@ -1,135 +1,135 @@
 {
-  "trash_id": "06b6542a47037d1e33b15aa3677c2365",
+  "trash_id": "01b1ee692cec5e2bc1ac48bc6bce818d",
   "trash_scores": {
-    "default": -10000
+    "default": 1200
   },
-  "name": "Anime Raws",
+  "name": "Anime Encode Groups Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
     {
-      "name": "AsukaRaws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "Bluray",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Asuka[ ._-]?(Raws)"
+        "value": 6
       }
     },
     {
-      "name": "Daddy-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "Bluray Remux",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Daddy[ ._-]?(Raws)"
+        "value": 7
       }
     },
     {
-      "name": "Fumi-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Fumi[ ._-]?(Raws)"
+        "value": 3
       }
     },
     {
-      "name": "km",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "\\[km\\]|-km\\b"
+        "value": 4
       }
     },
     {
-      "name": "Koi-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "WEB",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Koi[ ._-]?(Raws)"
+        "value": 1
       }
     },
     {
-      "name": "Lilith-Raws",
-      "implementation": "ReleaseTitleSpecification",
+      "name": "DVD",
+      "implementation": "SourceSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Lilith[ ._-]?(Raws)"
+        "value": 5
       }
     },
     {
-      "name": "LowPower-Raws",
+      "name": "Eggpain-raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "LowPower[ ._-]?(Raws)"
+        "value": "\\b(Eggpain-raws)\\b"
       }
     },
     {
-      "name": "NanakoRaws",
+      "name": "IrizaRaws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Nanako[ ._-]?(Raws)"
+        "value": "\\bIriza[ ._-]?(Raws)\\b"
       }
     },
     {
-      "name": "NC-Raws",
+      "name": "jsum@U2",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "NC[ ._-]?(Raws)"
+        "value": "\\b(jsum@U2|jsum)\\b"
       }
     },
     {
-      "name": "New-raws",
+      "name": "LoliHouse",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "New[ ._-]?(raws)"
+        "value": "\\b(LoliHouse)\\b"
       }
     },
     {
-      "name": "Pandoratv-Raws",
+      "name": "Reinforce",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Pandoratv[ ._-]?(Raws)"
+        "value": "\\b(Reinforce)\\b"
       }
     },
     {
-      "name": "Scryous-Raws",
+      "name": "Salender-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Scryous[ ._-]?(Raws)"
+        "value": "\\b(Salender-Raws)\\b"
       }
     },
     {
-      "name": "Seicher-Raws",
+      "name": "UCCUSS",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Seicher[ ._-]?(Raws)"
+        "value": "\\b(UCCUSS)\\b"
       }
     },
     {
-      "name": "Shiniori-Raws",
+      "name": "Yousei-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "Shiniori[ ._-]?(Raws)"
+        "value": "\\b(Yousei-Raws)\\b"
       }
     }
   ]

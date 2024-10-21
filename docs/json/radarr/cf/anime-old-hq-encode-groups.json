@@ -1,0 +1,91 @@
+{
+  "trash_id": "6d37ca16ea3f8ac289aaea76817717db",
+  "trash_scores": {
+    "default": 1400
+  },
+  "name": "Anime Old HQ Encode Groups",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Bluray",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 6
+      }
+    },
+    {
+      "name": "Bluray Remux",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 7
+      }
+    },
+    {
+      "name": "DVD",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 5
+      }
+    },
+    {
+      "name": "ANE",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(ANE)\\b"
+      }
+    },
+    {
+      "name": "Fussoir",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Fussoir)\\b"
+      }
+    },
+    {
+      "name": "Henshin",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Henshin)\\b"
+      }
+    },
+    {
+      "name": "THORA",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(THORA)\\b"
+      }
+    },
+    {
+      "name": "Kagura",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(Kagura)\\b"
+      }
+    },
+    {
+      "name": "sergey_krs",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(sergey_krs)\\b"
+      }
+    }
+  ]
+}
