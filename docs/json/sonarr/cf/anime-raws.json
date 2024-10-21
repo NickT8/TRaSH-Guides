@@ -16,15 +16,6 @@
       }
     },
     {
-      "name": "Beatrice-Raws",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "Beatrice[ ._-]?(Raws)"
-      }
-    },
-    {
       "name": "Daddy-Raws",
       "implementation": "ReleaseTitleSpecification",
       "negate": false,
@@ -49,15 +40,6 @@
       "required": false,
       "fields": {
         "value": "Iriza[ ._-]?(Raws)"
-      }
-    },
-    {
-      "name": "Kawaiika-Raws",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "Kawaiika[ ._-]?(Raws)"
       }
     },
     {
@@ -157,15 +139,6 @@
       "required": false,
       "fields": {
         "value": "Pandoratv[ ._-]?(Raws)"
-      }
-    },
-    {
-      "name": "Raws-Maji",
-      "implementation": "ReleaseTitleSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": "\\b(Raws-Maji)\\b"
       }
     },
     {
