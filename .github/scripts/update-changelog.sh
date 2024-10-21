@@ -9,7 +9,7 @@ while IFS= read -r message; do
     pr_number=$(echo "$message" | grep -oE '\(#[0-9]+\)$' | tr -d '(#)')
     formatted_message=$(echo "$message" | sed -E 's/ \(#[0-9]+\)$//')
     formatted_output+="
-- [$formatted_message](https://github.com/TRaSH-Guides/Guides/pull/${pr_number})"
+- [$formatted_message](https://github.com/NickT8/TRaSH-Guides/pull/${pr_number})"
 done < "$log_file"
 
 formatted_output+="\n"
