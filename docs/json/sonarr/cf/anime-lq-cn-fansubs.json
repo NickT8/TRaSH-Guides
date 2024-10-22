@@ -1,0 +1,55 @@
+{
+  "trash_id": "f441a6915252c8ce4c8bb1c2ee74e67b",
+  "trash_scores": {
+    "default": -10000
+  },
+  "name": "Anime LQ CN FanSubs",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "幻櫻字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(幻[櫻樱].*?|HYSUB)\\b"
+      }
+    },
+    {
+      "name": "億次研同好會",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([億亿]次研同好[會会]|Billion[ ._-]?Meta[ ._-]?Lab)\\b"
+      }
+    },
+    {
+      "name": "MCE漢化組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(MCE(?:[漢汉]化[組组])?)\\b"
+      }
+    },
+    {
+      "name": "S1百綜字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(S1百[綜综].*?|S1YURICON)\\b"
+      }
+    },
+    {
+      "name": "販賣機漢化組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(TOC)\\b"
+      }
+    }
+  ]
+}

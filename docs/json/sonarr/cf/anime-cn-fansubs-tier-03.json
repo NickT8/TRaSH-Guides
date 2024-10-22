@@ -1,0 +1,127 @@
+{
+  "trash_id": "c4b059817e65f7acdb99456383017d25",
+  "trash_scores": {
+    "default": 400
+  },
+  "name": "Anime CN FanSubs Tier 03",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "MingYSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\bMingY(?:Sub)?\\b"
+      }
+    },
+    {
+      "name": "幻之字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(幻之字幕[組组]|Mabors)\\b"
+      }
+    },
+    {
+      "name": "愛戀字幕社",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([愛爱][戀恋].*?|KissSub)\\b"
+      }
+    },
+    {
+      "name": "撥雪尋春",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([撥拨]雪[尋寻]春|Haruhana)\\b"
+      }
+    },
+    {
+      "name": "極影字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([極极]影.*?|JYFanSub)\\b"
+      }
+    },
+    {
+      "name": "桜都字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(桜都.*?|Sakurato)\\b"
+      }
+    },
+    {
+      "name": "沸羊羊製作",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(沸羊羊[製制]作|Fyy[ ._-]?Raws)\\b"
+      }
+    },
+    {
+      "name": "澄空學園",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(澄空(?:[學学][園园])?|SumiSora)\\b"
+      }
+    },
+    {
+      "name": "獵戶發佈組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([獵猎][戶户]?.*?|orion[ ._-]?origin)\\b"
+      }
+    },
+    {
+      "name": "百冬練習組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(百冬[練练][習习][組组]|hyakuhuyu)\\b"
+      }
+    },
+    {
+      "name": "華盟字幕社",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([華华]盟.*?|CASO)\\b"
+      }
+    },
+    {
+      "name": "雲歌字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([雲云]歌.*?|YunFog)\\b"
+      }
+    },
+    {
+      "name": "北宇治字幕组",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(北宇治字幕[組组]|KitaujiSub)\\b"
+      }
+    }
+  ]
+}

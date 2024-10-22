@@ -1,0 +1,64 @@
+{
+  "trash_id": "57cea0d497982a3f744e145fc0adf666",
+  "trash_scores": {
+    "default": 500
+  },
+  "name": "Anime CN FanSubs Tier 02",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "動漫國字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([動动]漫[國国].*?|DMG)\\b"
+      }
+    },
+    {
+      "name": "喵萌奶茶屋",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(喵萌(?:奶茶屋|Production)|Nekomoe[ ._-]?kissaten)\\b"
+      }
+    },
+    {
+      "name": "星空字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(星空(?:字幕[組组])?|XKsub)\\b"
+      }
+    },
+    {
+      "name": "茉語字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(茉[語语].*?|MakariHoshiyume)\\b"
+      }
+    },
+    {
+      "name": "西農YUI漢化組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(西[農农]YUI.*?|YUI-7)\\b"
+      }
+    },
+    {
+      "name": "悠哈C9字幕社",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(悠哈(?:璃羽|C9)?.*?|UHA-Wing)\\b"
+      }
+    }
+  ]
+}
