@@ -1,0 +1,82 @@
+{
+  "trash_id": "33855ea185cedeba74d0d1a620efd160",
+  "trash_scores": {
+    "default": 600
+  },
+  "name": "Anime CN FanSubs Tier 01",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": ".subbers project",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(\\.subbers project)\\b"
+      }
+    },
+    {
+      "name": "NEO·QSW",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(NEO[ ·._-]QSW)\\b"
+      }
+    },
+    {
+      "name": "SweetSub",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(SweetSub)\\b"
+      }
+    },
+    {
+      "name": "千夏字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(千夏.*?|Airota)\\b"
+      }
+    },
+    {
+      "name": "豌豆字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(豌豆.*?|BeanSub)\\b"
+      }
+    },
+    {
+      "name": "風之聖殿字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\b([風风]?之[聖圣]殿.*?|FZSD)\b"
+      }
+    },
+    {
+      "name": "雪飄工作室",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b(雪[飄飘].*?|FLsnow)\\b"
+      }
+    },
+    {
+      "name": "諸神字幕組",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "\\b([諸诸]神.*?|Kamigami)\\b"
+      }
+    }
+  ]
+}
