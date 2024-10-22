@@ -1,0 +1,16 @@
+{
+  "trash_id": "c00a64047143fd5b7176272d0d718b80",
+  "name": "JPN",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "JPN",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\b(JPN)\\b"
+      }
+    }
+  ]
+}

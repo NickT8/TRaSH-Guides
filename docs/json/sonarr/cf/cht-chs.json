@@ -1,0 +1,16 @@
+{
+  "trash_id": "a07c363f061ce91f4f164c8a5c1b343d",
+  "name": "CHT&CHS",
+  "includeCustomFormatWhenRenaming": true,
+  "specifications": [
+    {
+      "name": "CHT&CHS",
+      "implementation": "ReleaseTitleSpecification",
+      "negate": false,
+      "required": true,
+      "fields": {
+        "value": "\\b((?:CHT|CHS|BIG5|GB)[^a-zA-Z\\d\\s](?:CHT|CHS|BIG5|GB))\\b"
+      }
+    }
+  ]
+}
